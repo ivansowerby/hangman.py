@@ -1,0 +1,8 @@
+[url]
+#The API URL from which the random word will be requested:
+api = 'https://random-words-api.vercel.app/word' #With thanks to <Naveen, M.> for the API --> 2021. GitHub - mcnaveen/Random-Words-API. GitHub. Available at: <https://github.com/mcnaveen/Random-Words-API>.
+
+[json.keys]
+#JSON keys for the (random) word and definition (if applicable):
+word = 'word'
+definition = 'definition'
