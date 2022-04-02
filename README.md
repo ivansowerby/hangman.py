@@ -4,13 +4,41 @@
 
 ### List of contents:
 1. Brief Introduction
-2. Legal (MIT license)
+2. Console Example
+3. Legal (MIT license)
 
 <b><h2 style="text-align:center">Brief Introduction</h3></b>
 
 ---
 
 A <i>hangman</i> game application written in Python, with a customisable TOML file to filter for random <i>word</i> and <i>defenition</i> keys from an API response (as specified by a URL).
+
+<b><h2 style="text-align:center">Console Example</h3></b>
+
+---
+
+```
+{hangman.py}
+Word: _ e v e s _
+~ Reinstate; reinvest  
+
+- lives remaining: 2
+- letters guessed: p a e v o s
+Guess (a letter or the word): r
+```
+
+```
+{hangman.py}
+Word: r e v e s _
+~ Reinstate; reinvest  
+
+- lives remaining: 1
+- letters guessed: p a e v o s r
+Guess (a letter or the word): revest
+
+Word: revest
+YOU WIN | lives remaining: 1
+```
 
 <b><h2 style="text-align:center">License (MIT)</h3></b>
 
